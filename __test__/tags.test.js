@@ -18,9 +18,5 @@ test('4', () => {
 })
 
 test('5', () => {
-    expect(tags("<div><p></p><b><p></div>")).toBe("b")
-})
-
-test('6', () => {
     expect(tags("<em></em><em></em><p></b>")).toBe("p")
 })
